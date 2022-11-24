@@ -16,8 +16,17 @@ body {
     width: 50px;
 }
 
+#btn {
+    color: white;
+    background-color: #4af128;
+    border-radius: 5px;
+    height: 60%;
+}
+
 .navtop-mid {
     display: flex;
+    align-items: center;
+    color: white;
 }
 
 #logo-navbar {

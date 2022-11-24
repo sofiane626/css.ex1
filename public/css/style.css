@@ -61,3 +61,37 @@ a {
     border-right: solid 1px rgb(192, 192, 192);
     width: 15%;
 }
+
+.titre {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hr {
+    width: 3%;
+    margin: auto;
+    border: solid 1px purple;
+}
+
+.section-intro {
+    width: 90%;
+    margin: auto;
+}
+
+.section-intro p,
+li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+.section-intro li::marker {
+    color: #9b009d;
+}
+
+.section-intro li {
+    padding-top: 20px;
+    list-style-position: outside;
+}

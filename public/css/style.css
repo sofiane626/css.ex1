@@ -84,7 +84,7 @@ a {
 li {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkgrey;
+    color: rgb(112, 111, 111);
 }
 
 .section-intro li::marker {
@@ -94,4 +94,20 @@ li {
 .section-intro li {
     padding-top: 20px;
     list-style-position: outside;
+}
+
+.section-principal {
+    width: 90%;
+    margin: auto;
+}
+
+.section-principal p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 111, 111);
+}
+
+.section-principal h2 {
+    font-size: 25px;
+    color: rgb(96, 96, 96);
 }
